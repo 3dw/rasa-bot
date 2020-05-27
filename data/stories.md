@@ -22,6 +22,14 @@
 * 如何寫計畫書？
   - utter_如何寫計畫書？
 
+## 計畫q2
+* 「玩」與「唸書」的平衡？
+  - utter_「玩」與「唸書」的平衡？
+
+## 計畫q3
+* 自學生要怎麼升學？
+  - utter_自學生要怎麼升學？
+
 ## say goodbye
 * goodbye
   - utter_goodbye
