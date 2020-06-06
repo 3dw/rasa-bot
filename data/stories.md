@@ -38,6 +38,10 @@
 * 自學對未來出路有幫助嗎？
   - utter_自學對未來出路有幫助嗎？
 
+## 計畫q6
+* 七大領域都要寫進計畫嗎？
+  - utter_七大領域都要寫進計畫嗎？
+  
 ## say goodbye
 * goodbye
   - utter_goodbye
