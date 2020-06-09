@@ -9,7 +9,7 @@ Event Broker password (RabbitMQ): sthaZ7UttIOKxCHGZWNk
 Lock Store password (Redis): 7xBUG4RQ8q_n1OkSHdpY
 
 
-https://220.129.229.188/webhooks/facebook/webhook
+https://111.241.193.66/webhooks/facebook/webhook
 
 
 EAALId7COLuoBACDc7diQ4TPzKnbHRegxebYGaRafTZAIP5rBZA3aIvtGS3XkEUUrIEZBG4O7RYKyAUmRBbxG81NB6OnhcJpwDI7faXYmKZA95ErCT2cIZCN7FwfkH7M0vqX3mZAipprL1Ji1dekpVDL6X0dUINFtN245uhU7ntfQBzjyFtiMNb
