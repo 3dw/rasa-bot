@@ -2,50 +2,9 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/user-guide/testing-your-assistant/
 
 ## happy path 1
-* greet: hello there!
-  - utter_greet
-* mood_great: amazing
-  - utter_happy
-
-## happy path 2
-* greet: hello there!
-  - utter_greet
-* mood_great: amazing
-  - utter_happy
-* goodbye: bye-bye!
-  - utter_goodbye
-
-## sad path 1
-* greet: hello
-  - utter_greet
-* mood_unhappy: not good
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm: yes
-  - utter_happy
-
-## sad path 2
-* greet: hello
-  - utter_greet
-* mood_unhappy: not good
-  - utter_cheer_up
-  - utter_did_that_help
-* deny: not really
-  - utter_goodbye
-
-## sad path 3
-* greet: hi
-  - utter_greet
-* mood_unhappy: very terrible
-  - utter_cheer_up
-  - utter_did_that_help
-* deny: no
-  - utter_goodbye
-
-## say goodbye
-* goodbye: bye-bye!
-  - utter_goodbye
-
-## bot challenge
-* bot_challenge: are you a bot?
-  - utter_iamabot
+* 不上學，合法嗎？
+    - utter_不上學，合法嗎？
+* 如何提出申請？
+    - utter_如何提出申請？
+* 自學的時間怎麼安排呢？
+    - utter_自學的時間怎麼安排呢？
