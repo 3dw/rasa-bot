@@ -1,0 +1,6 @@
+pipeline: supervised_embeddings
+language: zh-TW
+policies:
+- name: MemoizationPolicy
+- name: KerasPolicy
+- name: MappingPolicy
