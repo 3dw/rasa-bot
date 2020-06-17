@@ -2,6 +2,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- help
 - 不上學，合法嗎？
 - 自學和中輟有何不同？
 - 如何提出申請？
@@ -14,7 +15,23 @@ intents:
 - 自學對未來出路有幫助嗎？
 - 七大領域都要寫進計畫嗎？
 - goodbye
+slots:
+   school_level:
+      type: categorical
+      values:
+      - 小學
+      - 國中
+      - 高中
 responses:
+  utter_help:
+  - text: 請問你的學習階段？
+    buttons:
+    - title: "小學"
+      payload: "小學"
+    - title: "國中"
+      payload: "國中"
+    - title: "高中"
+      payload: "高中"
   utter_不上學，合法嗎？:
   - text: "教育基本法保障家長的教育選擇權和孩子的受教權。\n 經過多年努力，台灣非學校教育(通稱自學)已合法，\n 法規為〈高級中等以下教育階段非學校型態實驗教育實施條例〉(103年11月19日總統華總一義字第10300173311號令公布)，\n\
       \ 目前比日本、中國、香港、韓國，對自學都更友善、更開放。\n 只要經過申請的手續，和過程的評鑑，就可以自訂學習計畫，不必上學。"

@@ -1,3 +1,7 @@
+## help
+* help
+  - utter_help
+
 ## 起步q1
 * 不上學，合法嗎？
   - utter_不上學，合法嗎？
