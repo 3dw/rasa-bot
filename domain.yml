@@ -26,7 +26,7 @@ slots:
       - 高中
 responses:
   utter_help:
-  - text: 請問你的學習階段？
+  - text: "請問你的學習階段？"
     buttons:
     - title: "小學"
       payload: "小學"
@@ -35,7 +35,7 @@ responses:
     - title: "高中"
       payload: "高中"
   utter_資源:
-  - text: 請問你的地區？
+  - text: "請問你的地區？"
     - title: "台北"
       payload: "台北資源"
     - title: "桃園"
@@ -73,15 +73,18 @@ responses:
   - text: "國中小階段，通常教育局會要求七大領域都要有。\n 不過，你可以用自己的方法、自選的教材來學習\n 也可以把學科與你的興趣統整起來。\n 例如，假如你對音樂有興趣，可以學習音樂的歷史、樂理中的數學等等。\n\
       \ 自學不必照本宣科，所以還是可以保有相當大的彈性。"
   utter_台北資源:
-  - text: 台北有下列資源
+  - text: "台北有下列資源"
   utter_桃園資源:      
-  - text: 桃園有下列資源
+  - text: "桃園有下列資源"
   utter_goodbye:
   - text: 再見
   - text: 下回見
   - text: 祝順心
 actions:
 - utter_help
+- utter_資源
+- utter_台北資源
+- utter_桃園資源
 - utter_不上學，合法嗎？
 - utter_自學和中輟有何不同？
 - utter_如何提出申請？
