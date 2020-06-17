@@ -36,6 +36,7 @@ responses:
       payload: "高中"
   utter_資源:
   - text: "請問你的地區？"
+    buttons:
     - title: "台北"
       payload: "台北資源"
     - title: "桃園"
