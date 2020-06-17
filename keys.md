@@ -9,6 +9,19 @@ Event Broker password (RabbitMQ): sthaZ7UttIOKxCHGZWNk
 Lock Store password (Redis): 7xBUG4RQ8q_n1OkSHdpY
 
 
+
+Please save the following access credentials for later use:
+
+Your Rasa X password is PdDlzbwIqYfXcAnisLds
+
+The passwords for the other services in the deployment are:
+
+Database password (PostgreSQL): 7HbwQ2swBxmmsn6HVWOy
+Event Broker password (RabbitMQ): Zbi1eGlwXY4VVQVxYNW9
+Lock Store password (Redis): xq1gCSKZDO49C5hcUVuC
+
+
+
 https://111.241.193.66/webhooks/facebook/webhook
 
 
