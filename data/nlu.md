@@ -1,7 +1,7 @@
 ## intent:help
 - help
 - ?
--
+- 求助
 
 ## intent:資源
 - 資源
