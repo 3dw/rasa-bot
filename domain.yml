@@ -69,6 +69,7 @@ responses:
   - text: 下回見
   - text: 祝順心
 actions:
+- utter_help
 - utter_不上學，合法嗎？
 - utter_自學和中輟有何不同？
 - utter_如何提出申請？
