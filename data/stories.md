@@ -58,10 +58,6 @@
 * 七大領域都要寫進計畫嗎？
   - utter_七大領域都要寫進計畫嗎？
 
-## say goodbye
-* goodbye
-  - utter_goodbye
-
 ## New Story
 * 不上學，合法嗎？
     - utter_不上學，合法嗎？

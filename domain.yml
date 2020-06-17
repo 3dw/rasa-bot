@@ -17,7 +17,6 @@ intents:
 - 七大領域都要寫進計畫嗎？
 - 台北資源
 - 桃園資源
-- goodbye
 - out_of_scope
 policies:
   - name: "FallbackPolicy"
@@ -113,5 +112,4 @@ actions:
 - utter_自學的時間怎麼安排呢？
 - utter_自學對未來出路有幫助嗎？
 - utter_七大領域都要寫進計畫嗎？
-- utter_goodbye
 - utter_default

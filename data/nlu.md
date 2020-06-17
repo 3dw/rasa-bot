@@ -98,9 +98,3 @@
 ## intent:桃園資源:
 - 桃園資源
 - 桃園資源?
-
-## intent:goodbye
-- bye
-- goodbye
-- 再見
-- 拜拜
