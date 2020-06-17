@@ -3,6 +3,7 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - help
+- 資源
 - 不上學，合法嗎？
 - 自學和中輟有何不同？
 - 如何提出申請？
