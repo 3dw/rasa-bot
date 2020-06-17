@@ -18,6 +18,12 @@ intents:
 - 台北資源
 - 桃園資源
 - goodbye
+- out_of_scope
+policies:
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.4
+    core_threshold: 0.3
+    fallback_action_name: "action_default_fallback"
 slots:
    school_level:
       type: categorical
@@ -82,6 +88,15 @@ responses:
   - text: 再見
   - text: 下回見
   - text: 祝順心
+  utter_default:
+  - text: "請選一個問題？"
+    buttons:
+    - title: "不上學，合法嗎？"
+      payload: "不上學，合法嗎？"
+    - title: "如何提出申請？"
+      payload: "如何提出申請？"
+    - title: "自學生要怎麼升學？"
+      payload: "自學生要怎麼升學？"
 actions:
 - utter_help
 - utter_資源
@@ -99,3 +114,4 @@ actions:
 - utter_自學對未來出路有幫助嗎？
 - utter_七大領域都要寫進計畫嗎？
 - utter_goodbye
+- utter_default
