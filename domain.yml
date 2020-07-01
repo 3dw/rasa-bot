@@ -30,7 +30,7 @@ intents:
 - 審議的過程是什麼？
 - out_of_scope
 slots:
-   school_level:
+   school_level_3:
       type: categorical
       values:
       - 小學
