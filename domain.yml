@@ -109,8 +109,8 @@ responses:
   utter_default:
   - text: "關於自學，你想瞭解的是...？"
     buttons:
-    - title: "自學是什麼？"
-      payload: "自學是什麼？"
+    - title: "請問自學是什麼？"
+      payload: "請問自學是什麼？"
     - title: "如何提出申請？"
       payload: "如何提出申請？"
     - title: "我有自學進行中的問題"
