@@ -111,3 +111,19 @@
 
 * 我的未來沒有方向
   - utter_我的未來沒有方向
+
+
+## 升學story1
+* out_of_scope
+  - action_default_fallback
+
+* 自學生要怎麼升學？
+  - utter_自學生要怎麼升學？
+
+
+## 資源story1
+* out_of_scope
+  - action_default_fallback
+
+* 我想找學習資源
+  - utter_我想找學習資源

@@ -9,6 +9,7 @@
 
 先進去專案目錄，再輸入
 
+
 ```
 python3 -m venv ./venv
 source ./venv/bin/activate
