@@ -117,10 +117,6 @@ responses:
   - text: ""
   utter_我的未來沒有方向:
   - text: ""
-  utter_要找誰申請？:
-  - text: ""
-  utter_申請的資格？:
-  - text: ""
   utter_審議的過程是什麼？:
   - text: ""
   utter_「玩」與「唸書」的平衡？:
