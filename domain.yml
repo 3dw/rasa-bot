@@ -89,7 +89,7 @@ responses:
   utter_審議的過程是什麼？:
   - text: "受理申請後兩、三個月內，教育局處可能會請你出席審議會來當面談談自學計畫(特別是第一次申請自學者)\n申請人是否需要出席審議會，視「各縣市的案件量」和「計畫書內容」而定。\n近年來申請自學的人數不斷增加，部分縣市已經採用線上審議的方式，並通過 email 或電話先告訴你結果，隨後再發出公文寄到收件地址，未必需要親自出席面談。不過，當審議委員希望通過面談來深入瞭解你的計畫內容時，則會請你出席審議會。"
   utter_要找誰申請？:
-  - text: "要找戶籍所在地的教育局申請。網址https://hackmd.io/@tWmRDMLiQOS46GZJhwaknw/Syr-8OYR8"
+  - text: "要找戶籍所在地的教育局申請。[網址https://hackmd.io/@tWmRDMLiQOS46GZJhwaknw/Syr-8OYR8](https://hackmd.io/@tWmRDMLiQOS46GZJhwaknw/Syr-8OYR8)"
   utter_我有自學進行中的問題:
   - text: "請問你的問題比較接近下列何者？"
     buttons:
