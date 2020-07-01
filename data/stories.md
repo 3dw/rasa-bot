@@ -1,75 +1,47 @@
-## help
-* help
-  - utter_help
+## fallback story1
+* out_of_scope
+  - action_default_fallback
 
-## 資源
-* 資源
-  - utter_資源
+* 自學是什麼？
+    - utter_自學是什麼？
 
-## 台北資源
-* 台北資源
-  - utter_台北資源
+## 申請story1
+* out_of_scope
+  - action_default_fallback
 
-## 桃園資源
-* 桃園資源
-  - utter_桃園資源
-
-## Q1
-* 請問自學是什麼？
-  - utter_請問自學是什麼？
-
-## 起步q1
-* 不上學，合法嗎？
-  - utter_不上學，合法嗎？
-
-## 起步q2
-* 自學和中輟有何不同？
-  - utter_自學和中輟有何不同？
-
-## 起步q3
 * 如何提出申請？
   - utter_如何提出申請？
 
-## 起步q4
-* 為什麼自學要有審議？
-  - utter_為什麼自學要有審議？
-
-## 起步q5
-* 審議過程會有問題嗎？
-  - utter_審議過程會有問題嗎？
-
-## 計畫q1
 * 如何寫計畫書？
   - utter_如何寫計畫書？
 
-## 計畫q2
-* 「玩」與「唸書」的平衡？
-  - utter_「玩」與「唸書」的平衡？
-
-## 計畫q3
-* 自學生要怎麼升學？
-  - utter_自學生要怎麼升學？
-
-## 計畫q4
-* 自學的時間怎麼安排呢？
-  - utter_自學的時間怎麼安排呢？
-
-## 計畫q5
-* 自學對未來出路有幫助嗎？
-  - utter_自學對未來出路有幫助嗎？
-
-## 計畫q6
-* 七大領域都要寫進計畫嗎？
-  - utter_七大領域都要寫進計畫嗎？
-
-## New Story
-* 不上學，合法嗎？
-    - utter_不上學，合法嗎？
-* 如何提出申請？
-    - utter_如何提出申請？
-* 自學的時間怎麼安排呢？
-    - utter_自學的時間怎麼安排呢？
-
-## fallback story
+## 申請story2
 * out_of_scope
   - action_default_fallback
+
+* 如何提出申請？
+  - utter_如何提出申請？
+
+* 要找誰申請？
+  - utter_要找誰申請？
+
+## 申請story3
+* out_of_scope
+  - action_default_fallback
+
+* 如何提出申請？
+  - utter_如何提出申請？
+
+* 申請的資格？
+  - utter_申請的資格？
+
+
+## 申請story4
+* out_of_scope
+  - action_default_fallback
+
+* 如何提出申請？
+  - utter_如何提出申請？
+
+* 審議的過程是什麼？
+  - utter_審議的過程是什麼？
