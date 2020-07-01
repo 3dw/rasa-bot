@@ -2,7 +2,7 @@
 * out_of_scope
   - action_default_fallback
 
-* 自學是什麼？
+* 請問自學是什麼？
     - utter_請問自學是什麼？
 
 ## 申請story1
