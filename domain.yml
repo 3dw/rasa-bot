@@ -2,8 +2,11 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- help
+- 我想找真人
 - 我想找學習資源
+- 我想找朋友
+- 我想找老師
+- 我想找教材
 - 請問自學是什麼？
 - 不上學，合法嗎？
 - 自學和中輟有何不同？
@@ -16,8 +19,6 @@ intents:
 - 自學的時間怎麼安排呢？
 - 自學對未來出路有幫助嗎？
 - 七大領域都要寫進計畫嗎？
-- 台北資源
-- 桃園資源
 - 我有自學進行中的問題
 - 關於訪視
 - 關於成果報告
@@ -29,32 +30,46 @@ intents:
 - 申請的資格？
 - 審議的過程是什麼？
 - out_of_scope
-slots:
-   school_level_3:
-      type: categorical
-      values:
-      - 小學
-      - 國中
-      - 高中
 responses:
-  utter_help:
-  - text: "請問你的學習階段？"
+  utter_default:
+  - text: "關於自學，你想瞭解的是...？"
     buttons:
-    - title: "小學"
-      payload: "小學"
-    - title: "國中"
-      payload: "國中"
-    - title: "高中"
-      payload: "高中"
+    - title: "請問自學是什麼？"
+      payload: "請問自學是什麼？"
+    - title: "如何提出申請？"
+      payload: "如何提出申請？"
+    - title: "我有自學進行中的問題"
+      payload: "我有自學進行中的問題"
+    - title: "自學生要怎麼升學？"
+      payload: "自學生要怎麼升學？"
+    - title: "我想找學習資源"
+      payload: "我想找學習資源"
+    - title: "其他問題"
+      payload: "我想找真人"
+  utter_我想找真人:
+  - text: "請上諮詢專線，網址[http://map.alearn.org.tw/#/contact](http://map.alearn.org.tw/#/contact)"
   utter_我想找學習資源:
-  - text: "請問你的地區？"
+  - text: "請問你想找什麼資源"
     buttons:
-    - title: "台北"
-      payload: "台北資源"
-    - title: "桃園"
-      payload: "桃園資源"
+    - title: "朋友"
+      payload: "我想找朋友"
+    - title: "師資"
+      payload: "我想找老師"
+    - title: "教材"
+      payload: "我想找教材"
+  utter_我想找朋友:
+    - text: "＊自學社團普查：https://goo.gl/oG34FB\n＊地區自學家庭互認地圖（google帳號登入，認識所在地區的自學家庭）http://we.alearn.org.tw"
+  utter_我想找老師:
+    - text: "＊自學社團普查：https://goo.gl/oG34FB\n＊地區自學家庭互認地圖（google帳號登入，認識所在地區的自學家庭）http://we.alearn.org.tw"
+  utter_我想找教材:
+    - text: "＊開放教材普查：https://goo.gl/GY6xKR"
   utter_請問自學是什麼？:
-  - text: "自學其實就是「自主學習」，一種新創的教育方式。\n 自學生可以個人化自己的生活作息、課表及科目，而他們也必須自己主動學習，替自己決定方向。\n 在自學期間學生擁有高度的彈性，做自己想做的事，不受外在因素影響，按照個人的興趣及進度去學習。如果想了解更多關於自學，可以戳一戳以下連結：https://www.instagram.com/p/B9kFIZCBhP3/?igshid=1od58p0uv5url"
+  - text: "自學其實就是「自主學習」，一種新創的教育方式。\n 自學生可以個人化自己的生活作息、課表及科目，\n而他們也必須自己主動學習，替自己決定方向。\n在自學期間學生擁有高度的彈性，做自己想做的事，不受外在因素影響，按照個人的興趣及進度去學習。\n如果想了解更多關於自學，可以戳一戳以下連結：https://www.instagram.com/p/B9kFIZCBhP3/?igshid=1od58p0uv5url"
+    buttons:
+    - title: "不上學，合法嗎？"
+      payload: "不上學，合法嗎？"
+    - title: "自學和中輟有何不同？"
+      payload: "自學和中輟有何不同？"
   utter_不上學，合法嗎？:
   - text: "教育基本法保障家長的教育選擇權和孩子的受教權。\n 經過多年努力，台灣非學校教育(通稱自學)已合法，\n 法規為〈高級中等以下教育階段非學校型態實驗教育實施條例〉(103年11月19日總統華總一義字第10300173311號令公布)，\n\
       \ 目前比日本、中國、香港、韓國，對自學都更友善、更開放。\n 只要經過申請的手續，和過程的評鑑，就可以自訂學習計畫，不必上學。"
@@ -130,32 +145,16 @@ responses:
   utter_七大領域都要寫進計畫嗎？:
   - text: "國中小階段，通常教育局會要求七大領域都要有。\n 不過，你可以用自己的方法、自選的教材來學習\n 也可以把學科與你的興趣統整起來。\n 例如，假如你對音樂有興趣，可以學習音樂的歷史、樂理中的數學等等。\n\
       \ 自學不必照本宣科，所以還是可以保有相當大的彈性。"
-  utter_台北資源:
-  - text: "台北有下列資源"
-  utter_桃園資源:      
-  - text: "桃園有下列資源"
   utter_goodbye:
   - text: 再見
   - text: 下回見
   - text: 祝順心
-  utter_default:
-  - text: "關於自學，你想瞭解的是...？"
-    buttons:
-    - title: "請問自學是什麼？"
-      payload: "請問自學是什麼？"
-    - title: "如何提出申請？"
-      payload: "如何提出申請？"
-    - title: "我有自學進行中的問題"
-      payload: "我有自學進行中的問題"
-    - title: "自學生要怎麼升學？"
-      payload: "自學生要怎麼升學？"
-    - title: "我想找學習資源"
-      payload: "我想找學習資源"
 actions:
-- utter_help
+- utter_我想找真人
 - utter_我想找學習資源
-- utter_台北資源
-- utter_桃園資源
+- utter_我想找朋友
+- utter_我想找老師
+- utter_我想找教材
 - utter_請問自學是什麼？
 - utter_不上學，合法嗎？
 - utter_自學和中輟有何不同？
