@@ -87,11 +87,11 @@ responses:
     - title: "教材"
       payload: "我想找教材"
   utter_我想找朋友:
-    - text: "＊自學社團普查：https://goo.gl/oG34FB\n＊地區自學家庭互認地圖（google帳號登入，認識所在地區的自學家庭）http://we.alearn.org.tw"
+    - text: "＊[自學社團普查：](https://goo.gl/oG34FB)\n＊[地區自學家庭互認地圖](http://we.alearn.org.tw)"
   utter_我想找老師:
-    - text: "＊自學社團普查：https://goo.gl/oG34FB\n＊地區自學家庭互認地圖（google帳號登入，認識所在地區的自學家庭）http://we.alearn.org.tw"
+    - text: "＊[自學社團普查：](https://goo.gl/oG34FB)\n＊[地區自學家庭互認地圖](http://we.alearn.org.tw)"
   utter_我想找教材:
-    - text: "＊開放教材普查：https://goo.gl/GY6xKR"
+    - text: "＊[開放教材普查：](https://goo.gl/GY6xKR)"
   utter_請問自學是什麼？:
   - text: "自學其實就是「自主學習」，一種新創的教育方式。\n 自學生可以個人化自己的生活作息、課表及科目，\n而他們也必須自己主動學習，替自己決定方向。\n在自學期間學生擁有高度的彈性，做自己想做的事，不受外在因素影響，按照個人的興趣及進度去學習。\n如果想了解更多關於自學，可以戳一戳以下連結：https://www.instagram.com/p/B9kFIZCBhP3/?igshid=1od58p0uv5url"
     buttons:
