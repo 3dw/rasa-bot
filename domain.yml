@@ -30,6 +30,35 @@ intents:
 - 申請的資格？
 - 審議的過程是什麼？
 - out_of_scope
+actions:
+- utter_我想找真人
+- utter_我想找學習資源
+- utter_我想找朋友
+- utter_我想找老師
+- utter_我想找教材
+- utter_請問自學是什麼？
+- utter_不上學，合法嗎？
+- utter_自學和中輟有何不同？
+- utter_如何提出申請？
+- utter_為什麼自學要有審議？
+- utter_審議過程會有問題嗎？
+- utter_如何寫計畫書？
+- utter_「玩」與「唸書」的平衡？
+- utter_自學生要怎麼升學？
+- utter_自學的時間怎麼安排呢？
+- utter_自學對未來出路有幫助嗎？
+- utter_七大領域都要寫進計畫嗎？
+- utter_我有自學進行中的問題
+- utter_關於訪視
+- utter_關於成果報告
+- utter_關於完成證明
+- utter_我要回學校
+- utter_我有自律上的困難
+- utter_我的未來沒有方向
+- utter_要找誰申請？
+- utter_申請的資格？
+- utter_審議的過程是什麼？
+- utter_default
 responses:
   utter_default:
   - text: "關於自學，你想瞭解的是...？"
@@ -149,26 +178,3 @@ responses:
   - text: 再見
   - text: 下回見
   - text: 祝順心
-actions:
-- utter_我想找真人
-- utter_我想找學習資源
-- utter_我想找朋友
-- utter_我想找老師
-- utter_我想找教材
-- utter_請問自學是什麼？
-- utter_不上學，合法嗎？
-- utter_自學和中輟有何不同？
-- utter_如何提出申請？
-- utter_為什麼自學要有審議？
-- utter_審議過程會有問題嗎？
-- utter_如何寫計畫書？
-- utter_「玩」與「唸書」的平衡？
-- utter_自學生要怎麼升學？
-- utter_自學的時間怎麼安排呢？
-- utter_自學對未來出路有幫助嗎？
-- utter_七大領域都要寫進計畫嗎？
-- utter_我有自學進行中的問題
-- utter_要找誰申請？
-- utter_申請的資格？
-- utter_審議的過程是什麼？
-- utter_default
