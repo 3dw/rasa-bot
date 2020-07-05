@@ -1,15 +1,15 @@
 ## fallback story0
 * out_of_scope
   - action_default_fallback
+> check_asked_question
 
+## fallback story1
+> check_asked_question
 * 我想找真人
   - utter_我想找真人
 
-## fallback story1
-* out_of_scope
-  - action_default_fallback
-
 ## 自學story1
+> check_asked_question
 * 請問自學是什麼？
   - utter_請問自學是什麼？
 
@@ -18,14 +18,16 @@
 
 
 ## 自學story2
+> check_asked_question
 * 請問自學是什麼？
   - utter_請問自學是什麼？
 
-* 不上學，合法嗎？
-  - utter_不上學，合法嗎？
+* 自學和中輟有何不同？
+  - utter_自學和中輟有何不同？
 
 
 ## 申請story1
+> check_asked_question
 * 如何提出申請？
   - utter_如何提出申請？
 
@@ -33,6 +35,7 @@
   - utter_如何寫計畫書？
 
 ## 申請story2
+> check_asked_question
 * 如何提出申請？
   - utter_如何提出申請？
 
@@ -40,6 +43,7 @@
   - utter_要找誰申請？
 
 ## 申請story3
+> check_asked_question
 * 如何提出申請？
   - utter_如何提出申請？
 
@@ -47,6 +51,7 @@
   - utter_申請的資格？
 
 ## 申請story4
+> check_asked_question
 * 如何提出申請？
   - utter_如何提出申請？
 
@@ -55,6 +60,7 @@
 
 
 ## 過程story1
+> check_asked_question
 * 我有自學進行中的問題
   - utter_我有自學進行中的問題
 
@@ -63,6 +69,7 @@
 
 
 ## 過程story2
+> check_asked_question
 * 我有自學進行中的問題
   - utter_我有自學進行中的問題
 
@@ -71,6 +78,7 @@
 
 
 ## 過程story3
+> check_asked_question
 * 我有自學進行中的問題
   - utter_我有自學進行中的問題
 
@@ -79,6 +87,7 @@
 
 
 ## 過程story4
+> check_asked_question
 * 我有自學進行中的問題
   - utter_我有自學進行中的問題
 
@@ -86,6 +95,7 @@
   - utter_我要回學校
 
 ## 過程story5
+> check_asked_question
 * 我有自學進行中的問題
   - utter_我有自學進行中的問題
 
@@ -93,6 +103,7 @@
   - utter_我有自律上的困難
 
 ## 過程story6
+> check_asked_question
 * 我有自學進行中的問題
   - utter_我有自學進行中的問題
 
@@ -100,10 +111,12 @@
   - utter_我的未來沒有方向
 
 ## 升學story1
+> check_asked_question
 * 自學生要怎麼升學？
   - utter_自學生要怎麼升學？
 
 ## 資源story1
+> check_asked_question
 * 我想找學習資源
   - utter_我想找學習資源
 
@@ -111,11 +124,17 @@
   - utter_我想找朋友
 
 ## 資源story2
+> check_asked_question
 * 我想找學習資源
   - utter_我想找學習資源
-
 * 我想找老師
   - utter_我想找老師
+
+
+## 資源story3
+> check_asked_question
+* 我想找學習資源
+  - utter_我想找學習資源
 
 * 我想找教材
   - utter_我想找教材
