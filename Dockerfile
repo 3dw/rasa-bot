@@ -18,6 +18,6 @@ COPY setup.py /app
 RUN  pip install -e . --no-cache-dir
 
 # Copy data
-COPY data/nlu.md data/
-COPY data/sotries.md data/
-COPY domain.yml ./
+COPY data/nlu.md /app/data/
+COPY data/sotries.md /app/data/
+COPY domain.yml /app
