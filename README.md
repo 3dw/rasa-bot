@@ -5,6 +5,8 @@
 
 [安裝程序](https://rasa.com/docs/rasa/user-guide/installation/#installation-guide)
 
+note: 請安裝rasa==1.8.3以避免錯誤
+
 ## 近端測試
 
 先進去專案目錄，再輸入
