@@ -1,5 +1,16 @@
 Please save the following access credentials for later use:
 
+Your Rasa X password is 2d7LUgM30zYeKKbAdzkU
+
+The passwords for the other services in the deployment are:
+
+Database password (PostgreSQL): TP5sQcBGqrTWlMcvOUIz
+Event Broker password (RabbitMQ): jgQbXmtTqRPmILSp3RJg
+Lock Store password (Redis): 9YiJHq-B7QP5b2BA3scI
+
+
+Please save the following access credentials for later use:
+
 Your Rasa X password is 51TDAxnLNnjFp3vplxLy
 
 The passwords for the other services in the deployment are:
