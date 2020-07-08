@@ -3,9 +3,13 @@
 
 ## 安裝
 
-[安裝程序](https://rasa.com/docs/rasa/user-guide/installation/#installation-guide)
+
+1. 進入命令列/終端機
+
+2. follow 本頁 [安裝程序](https://rasa.com/docs/rasa/user-guide/installation/#installation-guide)
 
 note: 請安裝rasa==1.8.3以避免錯誤
+
 
 ## 近端測試
 
@@ -13,11 +17,9 @@ note: 請安裝rasa==1.8.3以避免錯誤
 
 
 ```
-python3 -m venv ./venv
-source ./venv/bin/activate
 
 pip install -U pip
-pip install rasa
+pip install rasa==1.8.3
 
 rasa train
 rasa shell
