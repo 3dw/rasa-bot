@@ -1,7 +1,3 @@
-## fallback story0
-* out_of_scope
-  - action_default_fallback
-
 ## fallback story1
 * 我想找真人
   - utter_我想找真人
