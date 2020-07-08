@@ -1,6 +1,5 @@
 ## intent:我想找真人
 - 我想找真人
-- help
 - 求助真人
 
 ## intent:我想找學習資源
@@ -153,3 +152,6 @@
 
 ## intent:out_of_scope
 - 你好
+- help
+- 哈
+- hi
