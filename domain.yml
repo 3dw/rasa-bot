@@ -58,9 +58,9 @@ responses:
       title: 教材
     text: 請問你想找什麼資源
   utter_我想找老師:
-  - text: "＊[自學社團普查：](https://goo.gl/oG34FB)\n＊[自學互認地圖](http://we.alearn.org.tw)"
+  - text: "要找老師，請參考＊[自學社團普查：](https://goo.gl/oG34FB)\n＊[自學互認地圖](http://we.alearn.org.tw)"
   utter_我想找朋友:
-  - text: "＊[自學社團普查：](https://goo.gl/oG34FB)\n＊[自學互認地圖](http://we.alearn.org.tw)"
+  - text: "要找朋友，請參考＊[自學社團普查：](https://goo.gl/oG34FB)\n＊[自學互認地圖](http://we.alearn.org.tw)"
   utter_我想找教材:
   - text: ＊[開放教材普查：](https://goo.gl/GY6xKR)
   utter_請問自學是什麼？:
