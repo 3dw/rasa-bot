@@ -129,3 +129,12 @@
     - utter_我想找學習資源
 * 我想找朋友
     - utter_我想找朋友
+
+## Story from conversation with 4ee66bc4c6034e1c9f536ea16621f171 on July 8th 2020
+
+* 不上學，合法嗎？
+    - utter_不上學，合法嗎？
+* 如何提出申請？
+    - utter_如何提出申請？
+* 如何寫計畫書？
+    - utter_如何寫計畫書？
