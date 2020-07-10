@@ -54,7 +54,7 @@ responses:
       title: 我想找學習資源
     - payload: 我想找真人
       title: 其他問題
-    text: "關於自學，你想瞭解的是...？"
+    text: "您好，我是自主學習聊天機器人。關於自學，你想瞭解的是...？"
   utter_我想找真人:
   - text: "請上諮詢專線，網址[http://map.alearn.org.tw/#/contact](http://map.alearn.org.tw/#/contact)"
   utter_我想找學習資源:
